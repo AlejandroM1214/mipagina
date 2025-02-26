@@ -109,10 +109,6 @@ body {
     border-radius: 8px;
 }
 
-.noticias {
-    text-align: center;
-    padding: 40px 0;
-}
 
 .boton-mas {
     background: #3b7d3b;
@@ -132,15 +128,15 @@ body {
 /*pagina energiasrenovables*/
 .zona-informacion {
     background: white;
-    padding: 50px 10%;
+    padding: 10px 10%;
 }
 
 /* Estilos para la información de cada energía con imágenes intercaladas */
 .info-renovable {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 30px 0;
+    gap: 20px;
+    padding: 10px 0;
 }
 
 .bloque {
@@ -156,7 +152,7 @@ body {
 /* Alternar la posición de la imagen */
 
 .bloque img {
-    width: 200px;
+    width: 120px;
     height: auto;
     border-radius: 8px;
 }
@@ -170,19 +166,19 @@ body {
 
 
 .bloque-contenido {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .bloque-contenido h2 {
     color: #3b7d3b;
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .bloque-contenido p {
     font-size: 16px;
-    line-height: 1.5;
-    text-align: justify;
+    line-height: 10;
+    text-align: left;
 }
 
 /* Sección de organizaciones */
@@ -283,7 +279,7 @@ body {
 
 .energia img {
     width: 60%;
-    max-width: 500px;
+    max-width: 300px;
     border-radius: 8px;
     top: 50%;
    
@@ -440,7 +436,7 @@ body {
 }
 
 .producto img {
-    width: 40%;
+    width: 20%;
     border-radius: 10px;
 }
 
@@ -560,3 +556,62 @@ button:hover {
     background: #eaf5ea;
     border-radius: 5px;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Sección del formulario de contacto */
+.formulario-contacto {
+    background: #ffffff;
+    padding: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.formulario-contacto h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #219150;
+}
+
