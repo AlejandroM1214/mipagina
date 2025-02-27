@@ -618,38 +618,51 @@ button:hover {
 .contenedor-productos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
 }
 
 .producto {
     width: 30%;
+    background: #f5f5f5;
     text-align: center;
-    background: #f8f8f8;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .producto img {
     width: 100%;
-    border-radius: 10px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+
+.producto p {
+    font-size: 14px;
+    color: #555;
 }
 
 .boton-comprar {
     display: inline-block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    background: #28a745;
+    padding: 10px 15px;
+    background: #007bff;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
 }
 
 .boton-comprar:hover {
-    background: #218838;
+    background: #0056b3;
 }
+
 .donacion {
     text-align: center;
     margin: 40px 0;
@@ -658,7 +671,7 @@ button:hover {
 .boton-donacion {
     display: inline-block;
     padding: 12px 20px;
-    background: #ff6600;
+    background: rgb(0, 230, 96);
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -668,5 +681,5 @@ button:hover {
 }
 
 .boton-donacion:hover {
-    background: #e65c00;
+    background: rgb(0, 230, 96);
 }
