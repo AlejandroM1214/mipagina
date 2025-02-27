@@ -615,30 +615,37 @@ button:hover {
     background: #219150;
 }
 
+/* Asegurar que los productos estén bien alineados */
 .contenedor-productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 productos por fila */
     gap: 20px;
-}
-
-.producto {
-    width: 30%;
-    background: #f5f5f5;
-    text-align: center;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-items: center;
 }
 
+/* Estilos de cada producto */
+.producto {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes centradas y ajustadas */
 .producto img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
+/* Asegurar que el nombre y la descripción queden debajo de la imagen */
 .producto h3 {
-    margin: 15px 0 10px;
+    margin-top: 10px;
     font-size: 18px;
 }
 
@@ -647,39 +654,41 @@ button:hover {
     color: #555;
 }
 
+/* Botón de comprar */
 .boton-comprar {
-    display: inline-block;
-    padding: 10px 15px;
-    background: #007bff;
+    display: block;
+    margin: 10px auto 0;
+    padding: 8px 15px;
+    background: #28a745;
     color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    margin-top: 10px;
-    transition: background 0.3s;
+    width: 80%;
+    text-align: center;
 }
 
 .boton-comprar:hover {
-    background: #0056b3;
+    background: #218838;
 }
 
+/* Botón de donación */
 .donacion {
     text-align: center;
-    margin: 40px 0;
+    margin-top: 30px;
 }
 
 .boton-donacion {
     display: inline-block;
-    padding: 12px 20px;
-    background: rgb(0, 230, 96);
-    color: white;
-    text-decoration: none;
+    padding: 12px 25px;
+    background: #ffc107;
+    color: black;
+    font-size: 16px;
     font-weight: bold;
-    font-size: 18px;
-    border-radius: 8px;
-    transition: background 0.3s ease-in-out;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .boton-donacion:hover {
-    background: rgb(0, 230, 96);
+    background: #e0a800;
 }
