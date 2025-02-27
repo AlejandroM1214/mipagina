@@ -615,3 +615,38 @@ button:hover {
     background: #219150;
 }
 
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.producto {
+    width: 30%;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boton-comprar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton-comprar:hover {
+    background: #218838;
+}
