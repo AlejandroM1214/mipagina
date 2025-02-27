@@ -650,3 +650,23 @@ button:hover {
 .boton-comprar:hover {
     background: #218838;
 }
+.donacion {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.boton-donacion {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.boton-donacion:hover {
+    background: #e65c00;
+}
