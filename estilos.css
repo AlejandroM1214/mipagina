@@ -1,5 +1,5 @@
 body {
-    background: url("imagenes/bosque1.png") no-repeat center center fixed;
+    background: url("mipagina/bosque1.png") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -231,7 +231,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #000;
-    background: url("imagenes/bosque1.png") no-repeat center center fixed;
+    background: url("mipagina/bosque1.png") no-repeat center center fixed;
     background-size: cover;
 }
 
